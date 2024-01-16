@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 5%;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.questions {
+    margin: 3rem auto;
+    width: 70%;
+    padding: 2rem;
+    background: #3498db;
+    cursor: default;
+    border-radius: 1rem;
+}
+
+#question {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #191a1a;
+}
+
+.option {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem #2980b9;
+    padding: 1rem;
+    background: #dde1e4;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.option:hover {
+    background: #3498db;
+}
+
+ol {
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    color: #0e0e0f;
+}
+
+span {
+    display: block;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.5rem;
+}
+
+#answer {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    color: #141515;
+    /* Changé en noir */
+}
+
+#stat {
+    margin-top: 1.5rem;
+    color: #151515;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    color: #2980b9;
+    background: #3498db;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:active {
+    background: #2980b9;
+}
+
+#scoreboard,
+#answerBank {
+    width: 40%;
+    background: #f3f4f4;
+    padding: 2rem;
+    text-align: center;
+    margin: 5% auto;
+    display: none;
+}
+
+#score-title {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #131313;
+}
+
+#score-btn,
+#check-answer {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    color: #0a0a0a;
+    background: #fcfdfe;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#check-answer:hover,
+#score-btn:hover {
+    background: #2980b9;
+}
+
+#score {
+    font-size: 2.5rem;
+    color: #2980b9;
+}
+
+#answerBank li {
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    color: #0a0a0a;
+    /* Changé en noir */
+}
+
+#answers {
+    margin-top: 1rem;
+    color: #0a0a0a;
+}
